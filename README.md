@@ -1,6 +1,6 @@
-# Valorant_fetchRank
+# Valorant_fetchRank (1.0)
 Google Sheet implementation of fetch Valorant rank via API
+<br>
 
-#Contributors
-Thanks to @Henrik-3
-https://github.com/Henrik-3/unofficial-valorant-api
+# Contributors
+Thanks to @Henrik-3. Code from <a href="https://github.com/Henrik-3/unofficial-valorant-api" target="unofficial-valorant-api"></a> has been reused to make our daily life easier.
