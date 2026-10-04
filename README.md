@@ -4,7 +4,7 @@ A Google Sheet that keeps a live Valorant rank leaderboard for a group of friend
 (`Code.gs`) reads Riot IDs from the sheet, asks the [HenrikDev API](https://docs.henrikdev.xyz/) for each
 player's current rank, and writes the results back, sorted from best to worst.
 
-<a href="https://docs.google.com/spreadsheets/d/1yaoGISz2oXrmvd7Y-hdCwqjablV9nTIiZXukumifjQw/edit#gid=1544133561">Link to Google Sheet</a>
+<a href="https://docs.google.com/spreadsheets/d/1ZEW9ZiodScvkAmRtjblUzVHhWzH39gIGYMmhucP2zYY/edit?usp=sharing">Link to the public Google Sheet</a> (view only, make a copy to use it yourself)
 
 ## What it does
 
@@ -46,7 +46,8 @@ Then it:
 ## Setup
 
 1. Make a copy of the sheet, then open **Extensions → Apps Script** and paste in [`Code.gs`](Code.gs).
-2. Open **Project Settings → Script properties** and add:
+2. Get a free HenrikDev key (step-by-step guide: [docs/GETTING_AN_API_KEY.md](docs/GETTING_AN_API_KEY.md)), then open
+   **Project Settings → Script properties** and add:
    - `API_KEY` (required): your HenrikDev API key. To use several keys, add more properties named
      `API_KEY1`, `API_KEY2`, `API_KEY_3`, and so on, or list keys separated by commas in one value.
    - `REGION` (optional): defaults to `ap`.
